@@ -22,6 +22,14 @@ a {
   background-position: center center;
 }
 
+.footer-paragraph {
+  font-size: 0.72rem;
+  color: rgb(160, 160, 160) !important;
+}
+.paragraph-container {
+  width: 50%;
+}
+
 .iphone12-section {
   cursor: pointer;
   width: 100%;
@@ -92,13 +100,6 @@ a {
 .svg-cart {
   width: 18px;
 }
-.col-xl-6 {
-  margin: 10px;
-  min-width: 43vw !important;
-  min-height: 600px;
-  cursor: pointer;
-  overflow: hidden;
-}
 
 .watch {
   background-color: black !important;
@@ -112,50 +113,12 @@ a {
   text-decoration: underline;
 }
 
-.small {
-  min-width: 43vw !important;
-  font-size: 10px;
-}
-.airpods {
-  min-width: 43vw;
-  height: 600px;
-}
-.airpods-image {
-  width: 94%;
-  height: 100%;
-
-  background: url("../images/promo_tile_discjockey__bjgd67g75hsi_large_2x.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.image {
-  margin-top: 50px !important;
-  margin-right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/tile__cauwwcyyn9hy_large_2x.jpg");
-  background-size: cover;
-  background-position: center center;
-}
 i {
   text-decoration: none !important;
 }
 
-.apple-card {
-  background: url("../images/promo_tile_apple_card__ccp821akaity_large_2x.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.films {
-  background: url("../images/promo_tile_oscars__domg1a0lqvki_xlarge_2x.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 .films-title {
-  margin-top: 370px !important;
+  margin-top: 40% !important;
 }
 .navbar-toggler {
   border: none;
@@ -182,11 +145,10 @@ i {
 }
 .rotate1 {
   transform: rotate(45deg) translateY(3px) translateX(3px);
-  transition: all 0.3s ease-in-out;
 }
 .rotate2 {
   transform: rotate(-45deg) translateY(-3px) translateX(3px);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 
 .collapsible {
@@ -197,7 +159,125 @@ i {
 .second-links {
   font-size: 1.2rem;
 }
+
+.col-xl-6 {
+  margin: 10px !important;
+  width: 40vw;
+  height: 500px;
+}
+.row {
+  overflow: hidden;
+}
+.watch-image {
+  width: 100%;
+  margin-top: 50px !important;
+  height: 300px;
+  background-image: url(../images/tile__watch.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+}
+.fitness-image {
+  width: 100%;
+  margin-top: 30px !important;
+  height: 400px;
+  background-image: url(../images/tile__fitness.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 66%;
+}
+.airpods {
+  overflow: hidden;
+  background-image: url(../images/promo_tile_airpods.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.one-image {
+  height: 100%;
+  background-image: url(../images/tile__one.jpg);
+  background-repeat: no-repeat;
+}
+.apple-card-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/promo_tile_apple_card.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-size: cover;
+}
+.films {
+  background-image: url(../images/promo_tile_films.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 input {
   outline: none;
   border: none;
+}
+.links-container {
+  width: 900px;
+  margin: 0 auto !important;
+}
+.footer-links {
+  margin-top: 8px !important;
+  font-size: 0.72rem;
+  color: rgb(160, 160, 160) !important;
+}
+.footer-text-black {
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-weight: bold;
+  margin: 1rem 0 0 0 !important;
+}
+.footer-paragraph a {
+  color: black;
+}
+.footer-paragraph a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.footer-paragraph .footer-text-black {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+@media only screen and (max-width: 1620px) {
+  .col-xl-6 {
+    width: 98%;
+    margin: 10px 0 !important;
+  }
+  .airpods,
+  .one {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .paragraph-container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .airpods,
+  .one {
+    width: 98%;
+  }
+  .fitness-image {
+    background-position: 52%;
+  }
+  .films-title h5 {
+    font-size: 1.1rem;
+  }
+  .films-title h1 {
+    font-size: 1.4rem;
+  }
+  .fitness-image {
+    background-position: 45%;
+    background-size: cover;
+  }
+  #airpods-pro-image {
+    width: 70%;
+    margin: 0 auto 10px !important;
+  }
+  .paragraph-container {
+    width: 90%;
+  }
 }
