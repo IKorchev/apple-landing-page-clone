@@ -1,0 +1,203 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+body {
+  font-family: sans-serif;
+  /* overflow-x: hidden; */
+}
+a {
+  text-decoration: none;
+}
+.one-image {
+  margin-top: 50px !important;
+  width: 100%;
+  height: 100%;
+  background: url("../images/tile__cauwwcyyn9hy_large_2x (1).jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.iphone12-section {
+  cursor: pointer;
+  width: 100%;
+  height: 650px;
+  background-image: url(../images/iphone_12_us__fo0stbby242m_large_2x.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.iphone12pro-section {
+  margin-top: 15px !important;
+  cursor: pointer;
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/iphone_12_pro_us__e5oyysg4k0ya_large_2x.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.ipad-section {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/ipad_air.jpg);
+  background-size: 1200px;
+  background-position-x: center;
+  background-position-y: 220px;
+  background-repeat: no-repeat;
+}
+
+.iphone12pro-title {
+  font-size: 50px;
+}
+.section-header {
+  font-size: 60px !important;
+  font-weight: bold;
+}
+.nav-container {
+  height: 50px;
+}
+.iphone12-link:hover {
+  text-decoration: underline;
+}
+.iphone12-link {
+  font-size: 1.3rem;
+}
+.iphone12-image {
+  width: 3000px;
+  height: 100%;
+}
+
+/* NAV */
+.nav-link {
+  font-size: 0.8rem;
+  color: lightgray;
+  opacity: 0.8;
+}
+.nav-link:hover {
+  opacity: 1 !important;
+  color: lightgray;
+}
+
+.svg-search {
+  width: 18px;
+  height: 18px;
+}
+.svg-cart {
+  width: 18px;
+}
+.col-xl-6 {
+  margin: 10px;
+  min-width: 43vw !important;
+  min-height: 600px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.watch {
+  background-color: black !important;
+}
+
+.cards-link {
+  color: cornflowerblue;
+}
+.cards-link:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.small {
+  min-width: 43vw !important;
+  font-size: 10px;
+}
+.airpods {
+  min-width: 43vw;
+  height: 600px;
+}
+.airpods-image {
+  width: 94%;
+  height: 100%;
+
+  background: url("../images/promo_tile_discjockey__bjgd67g75hsi_large_2x.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.image {
+  margin-top: 50px !important;
+  margin-right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/tile__cauwwcyyn9hy_large_2x.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+i {
+  text-decoration: none !important;
+}
+
+.apple-card {
+  background: url("../images/promo_tile_apple_card__ccp821akaity_large_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.films {
+  background: url("../images/promo_tile_oscars__domg1a0lqvki_xlarge_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.films-title {
+  margin-top: 370px !important;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-nav {
+  margin: 0 auto !important;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.toggled {
+  background-color: black !important;
+}
+
+.line {
+  margin-left: 10px;
+  margin-top: 7px !important ;
+  background-color: aliceblue;
+  width: 15px;
+  height: 1px;
+  transition: transform 2s ease;
+}
+.rotate1 {
+  transform: rotate(45deg) translateY(3px) translateX(3px);
+  transition: all 0.3s ease-in-out;
+}
+.rotate2 {
+  transform: rotate(-45deg) translateY(-3px) translateX(3px);
+  transition: all 0.3s ease-in-out;
+}
+
+.collapsible {
+  background-color: black;
+  color: white;
+}
+
+.second-links {
+  font-size: 1.2rem;
+}
+input {
+  outline: none;
+  border: none;
+}
