@@ -7,67 +7,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script defer src="index.js"></script>
     <title>Apple</title>
 </head>
 
 <body class="bg-light">
-    <nav class="navbar sticky-top navbar-expand-lg">
-        <div
-            class="container-fluid d-flex align-items-center container-nav justify-content-between px-3">
-                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMe"
-                    aria-controls="collapseMe" aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="line"></div>
-                    <div class="line mb-4"></div>
-                </button>
-                <a class="navbar-toggler mb-3 mx-4 px-2" href="#"><img
+    <nav class="navbar sticky-top navbar-expand-xl justify-content-between align-items-center">
+        <button class="navbar-toggler mx-2 px-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMe"
+            aria-controls="collapseMe" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="line"></div>
+            <div class="line mb-4"></div>
+        </button>
+        <a class="navbar-toggler mb-3 px-1" href="#"><img
+                src="../images/globalnav_apple_image__cxwwnrj0urau_large.svg"></img></a>
+        <a class="navbar-toggler  px-1" href="#"><img src="../images/globalnav_bag_image__bmix8075eg4i_small.svg"
+                class="mb-3" width="15px"></img></a>
+        <div class="collapse  navbar-collapse">
+            <div class="navbar-nav mx-auto ">
+                <a class="nav-link my-auto mx-4 px-3" href="#"><img id="nav-icon"
                         src="../images/globalnav_apple_image__cxwwnrj0urau_large.svg"></img></a>
-                <a class="navbar-toggler px-2" href="#"><img
-                        src="../images/globalnav_bag_image__bmix8075eg4i_small.svg" class="mb-3"width="15px"></img></a>
+                <a class="nav-link my-auto mx-4 px-3" href="#">Mac</a>
+                <a class="nav-link my-auto mx-4 px-3" href="#">iPad</a>
+                <a class="nav-link my-auto mx-4 px-3" href="#">iPhone</a>
+                <a class="nav-link my-auto mx-4 px-3" href="#">Watch</a>
+                <a class="nav-link my-auto mx-4 px-3" href="#">TV</a>
+                <a class="nav-link my-auto mx-4 px-3" href="#">Music</a>
+                <a class="nav-link my-auto mx-4 px-3" href="#">Support</a>
+                <a class="nav-link my-auto mx-4 px-3" href="#"><img id="nav-icon"
+                        src="../images/globalnav_search_image__fca9mfoh8a2q_small.svg" width="20px"></img></a>
+                <a class="nav-link  my-auto mx-4 px-3" href="#"><img id="nav-icon"
+                        src="../images/globalnav_bag_image__bmix8075eg4i_small.svg" width="20px"></img></a>
             </div>
-            <div class="collapse navbar-collapse">
-                <div class="navbar-nav">
-                    <a class="nav-link my-auto mx-4 px-2" href="#"><img id="nav-icon"
-                            src="../images/globalnav_apple_image__cxwwnrj0urau_large.svg"></img></a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#">Mac</a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#">iPad</a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#">iPhone</a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#">Watch</a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#">TV</a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#">Music</a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#">Support</a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#"><img id="nav-icon"
-                            src="../images/globalnav_search_image__fca9mfoh8a2q_small.svg" width="20px"></img></a>
-                    <a class="nav-link my-auto mx-4 px-2" href="#"><img id="nav-icon"
-                            src="../images/globalnav_bag_image__bmix8075eg4i_small.svg" width="20px"></img></a>
-                </div>
-            </div>
+        </div>
         </div>
     </nav>
 
-    <div class="navbar-nav  sticky-top flex-column justify-content-start align-items-start collapsible collapse px-5"
+    <div class="navbar-nav position-absolute top-0 flex-column justify-content-start align-items-start collapse "
         id="collapseMe">
-        <input class="form-control form-control p-2 bg-dark" type="text" placeholder="Search apple.com"
-            aria-label=".form-control-lg example">
-        <hr class="mt-2">
-        <a class="nav-link my-2 px-2 second-links" href="#">Mac</a>
-        <hr>
-        <a class="nav-link my-2 px-2 second-links" href="#">iPad</a>
-        <hr>
-        <a class="nav-link my-2 px-2 second-links" href="#">iPhone</a>
-        <hr>
-        <a class="nav-link my-2 px-2 second-links" href="#">Watch</a>
-        <hr>
-        <a class="nav-link my-2 px-2 second-links" href="#">TV</a>
-        <hr>
-        <a class="nav-link my-2 px-2 second-links" href="#">Music</a>
-        <hr>
-        <a class="nav-link my-2 px-2 second-links" href="#">Support</a>
-        <hr>
+        <div class="collapsible-wrapper">
+            <input class="mx-auto mt-1 form-control text-light form-control" type="text" placeholder=" Search apple.com"
+                aria-label=".form-control-lg example">
+            <hr class="mt-2">
+            <div class="collapsible-content overflow-auto px-5">
+                <a class="nav-link my-2 px-2 collapsible-links" href="#">Mac</a>
+                <hr>
+                <a class="nav-link my-2 px-2 collapsible-links" href="#">iPad</a>
+                <hr>
+                <a class="nav-link my-2 px-2 collapsible-links" href="#">iPhone</a>
+                <hr>
+                <a class="nav-link my-2 px-2 collapsible-links" href="#">Watch</a>
+                <hr>
+                <a class="nav-link my-2 px-2 collapsible-links" href="#">TV</a>
+                <hr>
+                <a class="nav-link my-2 px-2 collapsible-links" href="#">Music</a>
+                <hr>
+                <a class="nav-link my-2 px-2 collapsible-links" href="#">Support</a>
+                <hr>
+            </div>
+        </div>
     </div>
     <p class="text-center bg-light p-2"> <a href="#">Shop online </a> and get Specialist help, free no-contact delivery,
         and more.</p>
